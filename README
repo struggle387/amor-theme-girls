@@ -1,0 +1,14 @@
+
+### UBUNTU/DEBIAN/LINUX MINT INSTALL ###
+sudo apt-get update
+sudo apt-get install git cmake extra-cmake-modules extra-cmake-modules libqt5x11extras5-dev libkf5doctools-dev libkf5dbusaddons-dev libkf5coreaddons-dev libkf5i18n-dev libkf5config-dev libkf5windowsystem-dev libkf5xmlgui-dev
+
+cd ~/Downloads
+git clone https://invent.kde.org/games/amor.git
+cd amor
+git reset --hard 013e1f4d5e2207fda5eec111b5bedeee9adba785
+cmake .
+make -j$(nproc)
+sudo make install
+
+
