@@ -1,9 +1,16 @@
+WORK IN PROGRESS 
+working desktop enivorments 
+KDE Plasma  ❓
+GNOME       ❓
+Xfce        ❓
+MATE        ❓
+Cinnamon (X11)   ✅ 
 
-                                                                                                                                                          IN PROGRESS 
-### UBUNTU/DEBIAN/LINUX MINT INSTALL ###
+1. INSTALL AMOR ON YOUR SELECTED DISTROBUTION
+
+  ### UBUNTU/DEBIAN/LINUX MINT INSTALL ###
 sudo apt-get update
 sudo apt-get install git cmake extra-cmake-modules extra-cmake-modules libqt5x11extras5-dev libkf5doctools-dev libkf5dbusaddons-dev libkf5coreaddons-dev libkf5i18n-dev libkf5config-dev libkf5windowsystem-dev libkf5xmlgui-dev
-
 cd ~/Downloads
 git clone https://invent.kde.org/games/amor.git
 cd amor
@@ -13,3 +20,16 @@ make -j$(nproc)
 sudo make install
 
 
+  ### FEDORA/REDHAT/CENTOS INSTALL ###
+sudo dnf update
+sudo dnf install git cmake extra-cmake-modules qt5-qtbase-devel kf5-doctools-devel kf5-dbusaddons-devel kf5-coreaddons-devel kf5-i18n-devel kf5-config-devel kf5-windowsystem-devel kf5-xmlgui-devel
+cd ~/Downloads
+git clone https://invent.kde.org/games/amor.git
+cd amor
+git reset --hard 013e1f4d5e2207fda5eec111b5bedeee9adba785
+cmake .
+make -j$(nproc)
+sudo make install
+
+2. INSTALL SELECTED AMOR THEME
+run install.sh for amor theme under its folder 
