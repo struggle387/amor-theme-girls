@@ -2,7 +2,7 @@
 PixmapPath=pics/animated/asuka_suit
 Description=Asuka suit from Evangelion
 About=Asuka sits on top of the active window and blinks.\nImages from Elemental Software's Evangelion Sitters.
-Icon=../../preview/asuka_suit.png
+Icon=../../preview/asuka_suit_preview.png
 Sequences=Base
 Base=Base
 
