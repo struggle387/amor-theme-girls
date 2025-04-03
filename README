@@ -42,7 +42,7 @@ cd ~/Downloads/amor-theme-nge/$THEME_NAME
 sudo chmod +x install.sh && sudo ./install.sh
 
 install all 
-
+sudo chmod +x install_all.sh && sudo ./install_all.sh
 
 3. RUN AMOR 
 
