@@ -1,0 +1,14 @@
+[Config]
+PixmapPath=pics/animated/misato_2
+Description=misato_2
+About=misato_2
+Icon=../../preview/misato_2_preview.png
+Sequences=Base
+Base=Base
+
+[Base]
+Sequence=shime1.png,shime2.png
+Movement=0,0,0,0
+Delay=4000,50,50,50
+HotspotX=0,0,0,0
+HotspotY=90,90,90,90

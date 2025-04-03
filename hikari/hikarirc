@@ -1,0 +1,14 @@
+[Config]
+PixmapPath=pics/animated/hikari
+Description=hikari
+About=hikari
+Icon=../../preview/hikari_preview.png
+Sequences=Base
+Base=Base
+
+[Base]
+Sequence=shime1.png,shime2.png
+Movement=0,0,0,0
+Delay=4000,50,50,50
+HotspotX=0,0,0,0
+HotspotY=90,90,90,90
