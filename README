@@ -10,6 +10,7 @@ Cinnamon         ✅
 
 1. INSTALL AMOR ON YOUR SELECTED DISTROBUTION
 
+
   ### UBUNTU/DEBIAN/LINUX MINT INSTALL ###
 sudo apt-get update
 sudo apt-get install git cmake extra-cmake-modules extra-cmake-modules libqt5x11extras5-dev libkf5doctools-dev libkf5dbusaddons-dev libkf5coreaddons-dev libkf5i18n-dev libkf5config-dev libkf5windowsystem-dev libkf5xmlgui-dev
@@ -33,5 +34,17 @@ cmake .
 make -j$(nproc)
 sudo make install
 
+
 2. INSTALL SELECTED AMOR THEME
-run install.sh for amor theme under its folder 
+run install.sh for your preferred amor theme under its folder
+
+
+cd ~/Downloads/amor-theme-nge/$THEME_NAME
+sudo chmod +x install.sh && sudo ./install.sh
+
+
+3. RUN AMOR 
+
+
+4. CHANGE AMOR THEME
+Changing the AMOR theme can be done by right clicking on the default smiley face amor icon, clicking on configure, clicking on preferred amor theme, and clicking apply.
