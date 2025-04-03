@@ -24,7 +24,7 @@ sudo make install
 
   ### FEDORA/REDHAT/CENTOS INSTALL ###
 sudo dnf update
-sudo dnf install git cmake extra-cmake-modules qt5-qtbase-devel kf5-doctools-devel kf5-dbusaddons-devel kf5-coreaddons-devel kf5-i18n-devel kf5-config-devel kf5-windowsystem-devel kf5-xmlgui-devel
+sudo dnf install git cmake extra-cmake-modules qt5-qtbase-devel qt5-qtx11extras-devel kf5-kdoctools-devel kf5-kdbusaddons-devel kf5-kcoreaddons-devel kf5-ki18n-devel kf5-kconfig-devel kf5-kwindowsystem-devel kf5-kxmlgui-devel
 cd ~/Downloads
 git clone https://invent.kde.org/games/amor.git
 cd amor
