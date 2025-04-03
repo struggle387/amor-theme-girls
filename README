@@ -1,9 +1,11 @@
-WORK IN PROGRESS 
-working desktop enivorments 
-KDE Plasma  ❓
-GNOME       ❓
-Xfce        ❓
-MATE        ❓
+⚠️      WORK IN PROGRESS    ⚠️ 
+⚠️ DOES NOT WORK IN WAYLAND ⚠️
+⚠️      PLEASE USE X11      ⚠️
+Tested desktop enivorments 
+KDE Plasma       ❓
+GNOME            ❓
+Xfce             ❓
+MATE             ❓
 Cinnamon (X11)   ✅ 
 
 1. INSTALL AMOR ON YOUR SELECTED DISTROBUTION
