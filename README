@@ -36,11 +36,12 @@ sudo make install
 
 
 2. INSTALL SELECTED AMOR THEME
-run install.sh for your preferred amor theme under its folder
 
-
+install individual
 cd ~/Downloads/amor-theme-nge/$THEME_NAME
 sudo chmod +x install.sh && sudo ./install.sh
+
+install all 
 
 
 3. RUN AMOR 
