@@ -19,7 +19,8 @@ git reset --hard 013e1f4d5e2207fda5eec111b5bedeee9adba785
 cmake .
 make -j$(nproc)
 sudo make install
-
+cd ~/Downloads/amor-theme-nge/$THEME_NAME
+sudo chmod +x install_all.sh && sudo ./install_all.sh
 
   ### FEDORA/REDHAT/CENTOS INSTALL ###
 sudo dnf update
@@ -31,19 +32,12 @@ git reset --hard 013e1f4d5e2207fda5eec111b5bedeee9adba785
 cmake .
 make -j$(nproc)
 sudo make install
-
-
-2. INSTALL SELECTED AMOR THEME
-
-install individual
 cd ~/Downloads/amor-theme-nge/$THEME_NAME
-sudo chmod +x install.sh && sudo ./install.sh
-
-install all 
 sudo chmod +x install_all.sh && sudo ./install_all.sh
 
-3. RUN AMOR 
+
+2. RUN AMOR 
 
 
-4. CHANGE AMOR THEME
+3. CHANGE AMOR THEME
 Changing the AMOR theme can be done by right clicking on the default smiley face amor icon, clicking on configure, clicking on preferred amor theme, and clicking apply.
