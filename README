@@ -4,7 +4,7 @@
 todo list
 add more themes (send me a email of any themes you want coffee4261@tutamail.com) 
 tweak themes to have faster cycles
-
+configure installall.sh to actually install everything 
 
 1. INSTALL AMOR ON YOUR SELECTED DISTROBUTION
 
@@ -19,8 +19,6 @@ git reset --hard 013e1f4d5e2207fda5eec111b5bedeee9adba785
 cmake .
 make -j$(nproc)
 sudo make install
-cd ~/Downloads/amor-theme-nge/$THEME_NAME
-sudo chmod +x install_all.sh && sudo ./install_all.sh
 
   ### FEDORA/REDHAT/CENTOS INSTALL ###
 sudo dnf update
@@ -32,12 +30,13 @@ git reset --hard 013e1f4d5e2207fda5eec111b5bedeee9adba785
 cmake .
 make -j$(nproc)
 sudo make install
+
+
+2. Install extra amor themes 
+Download ZIP
+Extract
 cd ~/Downloads/amor-theme-nge/$THEME_NAME
 sudo chmod +x install_all.sh && sudo ./install_all.sh
-
-
-2. RUN AMOR 
-
 
 3. CHANGE AMOR THEME
 Changing the AMOR theme can be done by right clicking on the default smiley face amor icon, clicking on configure, clicking on preferred amor theme, and clicking apply.
