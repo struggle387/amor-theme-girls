@@ -32,11 +32,16 @@ make -j$(nproc)
 sudo make install
 
 
-2. Install extra amor themes 
-Download ZIP
-Extract
-cd ~/Downloads/amor-theme-nge/$THEME_NAME
-sudo chmod +x install_all.sh && sudo ./install_all.sh
+2. Install extra amor themes
+
+Download the ZIP of this repository (click "Code" > "Download ZIP").
+Extract the downloaded archive.
+
+Open a terminal and navigate to the extracted folder. For example:
+cd ~/Downloads/amor-theme-girls
+
+Make the installer executable and run it:
+sudo chmod +x install.sh && sudo ./install.sh
 
 3. CHANGE AMOR THEME
 Changing the AMOR theme can be done by right clicking on the default smiley face amor icon, clicking on configure, clicking on preferred amor theme, and clicking apply.
