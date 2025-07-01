@@ -1,0 +1,14 @@
+[Config]
+PixmapPath=pics/animated/misato_legs
+Description=misato_legs
+About=misato_legs
+Icon=../../preview/misato_legs_preview.png
+Sequences=Base
+Base=Base
+
+[Base]
+Sequence=misato_legs1.png,misato_legs2.png
+Movement=0,0,0,0
+Delay=4000,50,50,50
+HotspotX=0,0,0,0
+HotspotY=90,90,90,90
