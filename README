@@ -1,13 +1,6 @@
 ⚠️      WORK IN PROGRESS    ⚠️ 
 ⚠️      X11/XLibre ONLY     ⚠️
 
-todo list
-add more themes (send me a email of any themes you want coffee4261@tutamail.com) 
-tweak themes to have faster cycles
-fix some png feet being cut out weridly
-more guides on other distros 
-
-
 1. INSTALL AMOR ON YOUR SELECTED DISTROBUTION
 
 
@@ -47,3 +40,5 @@ sudo chmod +x install.sh && sudo ./install.sh
 
 3. CHANGE AMOR THEME
 Changing the AMOR theme can be done by right clicking on the default smiley face amor icon, clicking on configure, clicking on preferred amor theme, and clicking apply.
+
+request more themes (send me a email of any themes you want coffee4261@tutamail.com) 
